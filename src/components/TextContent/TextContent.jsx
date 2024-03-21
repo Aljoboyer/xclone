@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -6,11 +6,12 @@ AOS.init();
 
 
 const TextContent = () => {
+
+
   return (
     <div className='container mx-auto w-full px-4 md:px-0'>
        <div className='w-full  mt-13'>
-          <p className='font-roboto text-2xl md:text-5xl lg:text-7xl leading-[2rem] md:leading-[5rem] lg:leading-[7rem]'>We create radical new technologies 
-    to solve some of the world’s hardest problems </p>
+          <p id='typedtext' className='font-roboto text-2xl md:text-5xl lg:text-7xl leading-[2rem] md:leading-[5rem] lg:leading-[7rem]'>We create radical new technologies to solve some of the world’s hardest problems</p>
        </div>
 
        <div className='lg:flex lg:flex-row md:flex md:flex-row sm:flex sm:flex-col  justify-between  w-full h-fit  md:h-screen pt-21 lg:pt-54'>

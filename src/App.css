@@ -1,5 +1,6 @@
 body{
     background-position: fixed;
+    overflow-x: hidden;
 }
 
 .zoom-container {

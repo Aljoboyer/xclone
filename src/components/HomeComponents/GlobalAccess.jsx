@@ -5,7 +5,7 @@ const GlobalAccess = () => {
   return (
    <div className='mt-34 md:mt-0'>
 
-    <div className='bg-[#ffb300] h-[60px] md:h-[100px] flex flex-row justify-center items-center w-1/2 md:w-2/6'>
+    <div className='bg-[#ffb300] h-[60px] md:h-[130px] flex flex-row justify-center items-center w-[200px] md:w-[400px]'>
         <p className='font-roboto text-base md:text-2xl leading-[1rem] md:leading-[2rem] lg:leading-[3rem] font-bold'>PUBLIC    X    PROJECTS</p>
     </div>
 
