@@ -20,13 +20,6 @@ body{
     background-position: center center;
   }
 
-  .tepestry{
-    background-image: url('./assets/tepestry.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-  }
-
   .tidal{
     background-image: url('./assets/tidal.webp');
     background-repeat: no-repeat;
@@ -38,4 +31,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+  }
+
+  .tepestry{
+    background-image: url('./assets/tepestry.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition-property: background-image;
+    transition-duration: 5s ease-in-out;
   }
