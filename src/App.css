@@ -1,0 +1,40 @@
+body{
+    background-position: fixed;
+}
+
+.zoom-container {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .zoom-container.zoomed {
+    transform: scale(1.6); /* Adjust the scale as needed for zoom effect */
+  }
+  
+  .global_access{
+    background-image: url('./assets/global.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .tepestry{
+    background-image: url('./assets/tepestry.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .tidal{
+    background-image: url('./assets/tidal.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .moon{
+    background-image: url('./assets/moon.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
