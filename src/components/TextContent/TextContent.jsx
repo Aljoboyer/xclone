@@ -1,17 +1,19 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
 AOS.init();
+import { TextGenerateEffect } from './TextEffects';
 
 
 const TextContent = () => {
-
+  const words = `We create radical new technologies to solve some of the world’s hardest problems`
 
   return (
     <div className='container mx-auto w-full px-4 md:px-0'>
-       <div className='w-full  mt-13'>
-          <p id='typedtext' className='font-roboto text-2xl md:text-5xl lg:text-7xl leading-[2rem] md:leading-[5rem] lg:leading-[7rem]'>We create radical new technologies to solve some of the world’s hardest problems</p>
+       <div className='w-full'>
+          {/* <p id='typedtext' className='font-roboto text-2xl md:text-5xl lg:text-7xl leading-[2rem] md:leading-[5rem] lg:leading-[7rem]'></p> */}
+
+          <TextGenerateEffect words={words} className='font-roboto text-2xl md:text-5xl lg:text-7xl leading-[2rem] md:leading-[5rem] lg:leading-[7rem]' />
        </div>
 
        <div className='lg:flex lg:flex-row md:flex md:flex-row sm:flex sm:flex-col  justify-between  w-full h-fit  md:h-screen pt-21 lg:pt-54'>
@@ -30,3 +32,5 @@ The Moonshot Factory</p>
 }
 
 export default TextContent;
+
+
