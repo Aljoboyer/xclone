@@ -6,6 +6,7 @@ import { MenuToggle } from "./ManuToggle";
 import { Navigation } from "./Navigations";
 import {  sync, useCycle } from "framer-motion";
 import "./style.css";
+import { FaBars } from "react-icons/fa";
 
 const sidebar = {
   open: (height = 1000) => ({
@@ -33,10 +34,10 @@ const Navbar = () => {
   const { height } = useDimensions(containerRef);
 
   return (
-    <div className='container mx-auto w-full h-[70px] flex flex-row justify-between items-center'>
-        <img src={SiteLogo} alt="" className='' />
+    <div className='container mx-auto w-full h-[80px] flex flex-row justify-between items-center pt-4'>
+        <img src={SiteLogo} alt="" className='md:h-[70px] ps-4 md:ps-0' />
 
-        <div>
+        <div className='mr-4 md:mr-0'>
         {/* <motion.nav
           initial={false}
           animate={isOpen ? "open" : "closed"}
@@ -47,6 +48,7 @@ const Navbar = () => {
           <Navigation />
           <MenuToggle toggle={() => toggleOpen()} />
         </motion.nav> */}
+            <FaBars size={45} />
         </div>
     </div>
   )

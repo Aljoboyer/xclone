@@ -12,7 +12,7 @@ so everyone could access clean, reliable energy</p>
             <div className='h-[50px] w-[50px] bg-white flex flex-row justify-center items-center'>
                 <FaArrowRight color='black' size={25} />
             </div>
-            <p className='text-white text-base md:text-2xl leading-[1.5rem] font-medium ms-7'>Explore Tapestry</p>
+            <p className='text-white text-base md:text-3xl leading-[1.5rem] font-medium ms-7'>Explore Tapestry</p>
         </div>
         
     </div>

@@ -3,6 +3,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Moon = () => {
   return (
+    
     <div className='moon h-screen flex flex-col justify-end items-start'>
 
         <p className='font-roboto text-base md:text-3xl leading-[1.5rem] md:leading-[3rem] lg:leading-[3rem] text-white w-full md:w-3/5 px-11 md:px-40'>What if beams of light could provide
